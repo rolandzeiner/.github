@@ -10,13 +10,21 @@ Only the latest release of each project receives security fixes. If you're on an
 
 Please don't open a public issue or pull request for a security problem.
 
-Report it privately instead:
+Report it privately through GitHub instead. Each link opens the report form for that project:
 
-1. Open the **Security** tab of the affected repository.
-2. Click **Report a vulnerability**.
-3. Fill in the form. Only you and the maintainer can see the report.
+- [badegewaesser-austria](https://github.com/rolandzeiner/badegewaesser-austria/security/advisories/new)
+- [ladestellen-austria](https://github.com/rolandzeiner/ladestellen-austria/security/advisories/new)
+- [linz-linien-austria](https://github.com/rolandzeiner/linz-linien-austria/security/advisories/new)
+- [nextbike-austria](https://github.com/rolandzeiner/nextbike-austria/security/advisories/new)
+- [orrery-card](https://github.com/rolandzeiner/orrery-card/security/advisories/new)
+- [spinning-wheel-card](https://github.com/rolandzeiner/spinning-wheel-card/security/advisories/new)
+- [tankstellen-austria](https://github.com/rolandzeiner/tankstellen-austria/security/advisories/new)
+- [webcam-timelapse](https://github.com/rolandzeiner/webcam-timelapse/security/advisories/new)
+- [wiener-linien-austria](https://github.com/rolandzeiner/wiener-linien-austria/security/advisories/new)
 
-If the button is missing, open an issue that asks for a private contact and leave the details out.
+You need to be signed in to GitHub. Only you and the maintainer can see the report.
+
+For a repository that isn't listed, open its **Security** tab, choose **Advisories**, and click **Report a vulnerability**. If the button is missing, open an issue that asks for a private contact and leave the details out.
 
 A good report includes:
 
