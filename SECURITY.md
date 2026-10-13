@@ -12,6 +12,7 @@ Please don't open a public issue or pull request for a security problem.
 
 Report it privately through GitHub instead. Each link opens the report form for that project:
 
+- [austria-map-card](https://github.com/rolandzeiner/austria-map-card/security/advisories/new)
 - [badegewaesser-austria](https://github.com/rolandzeiner/badegewaesser-austria/security/advisories/new)
 - [ladestellen-austria](https://github.com/rolandzeiner/ladestellen-austria/security/advisories/new)
 - [linz-linien-austria](https://github.com/rolandzeiner/linz-linien-austria/security/advisories/new)
