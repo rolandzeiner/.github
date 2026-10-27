@@ -1,0 +1,24 @@
+name: Feature request
+description: An idea for something new, or a way to make something better.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What do you want to do?
+      description: Describe what you're trying to achieve, not only the feature. That makes it easier to find the best solution.
+      placeholder: When I look at my dashboard in the morning, I want to see …
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: How could it work?
+      description: Your idea for a solution. Sketches or screenshots of similar features are welcome.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Anything you've tried already?
+      description: Workarounds, template sensors, other cards or integrations.

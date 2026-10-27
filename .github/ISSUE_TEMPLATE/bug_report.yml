@@ -1,0 +1,87 @@
+name: Bug report
+description: Something doesn't work or shows the wrong thing.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Please search the existing issues first, in case someone already reported it.
+
+        If the data itself looks wrong (a price, a departure, a reading), compare it with the original source first. These projects only show what the source provides.
+
+  - type: dropdown
+    id: part
+    attributes:
+      label: Where does the problem show up?
+      options:
+        - Setup or options (adding or configuring the integration)
+        - Sensors or other entities
+        - Dashboard card
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Project version
+      description: Shown in HACS, or in Settings → Devices & services for integrations.
+      placeholder: e.g. 1.4.1
+    validations:
+      required: true
+
+  - type: input
+    id: ha-version
+    attributes:
+      label: Home Assistant version
+      description: Settings → About.
+      placeholder: e.g. 2026.10.2
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you saw, and what you expected instead. Screenshots help, especially for card problems.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can I reproduce it?
+      placeholder: |
+        1. Add a stop / station / …
+        2. Open the dashboard
+        3. …
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        Error messages from Settings → System → Logs that mention this project. For card problems, errors from the browser console (F12) help too.
+      render: text
+
+  - type: textarea
+    id: card-config
+    attributes:
+      label: Card configuration
+      description: Only for card problems. Paste the card's YAML from the dashboard editor (⋮ → Show code editor).
+      render: yaml
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostics
+      description: |
+        Only for integrations. In Settings → Devices & services, open the integration, click ⋮ → Download diagnostics, and drag the file in here. Sensitive values are removed automatically.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I'm on the latest release, and the problem is still there.
+          required: true

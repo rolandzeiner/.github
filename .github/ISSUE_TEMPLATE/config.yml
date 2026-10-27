@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security problem
+    url: https://github.com/rolandzeiner/.github/blob/main/SECURITY.md
+    about: Please report it privately. Don't open a public issue.
+  - name: General Home Assistant help
+    url: https://community.home-assistant.io/
+    about: For questions about Home Assistant itself, not about this project.
