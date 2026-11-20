@@ -44,5 +44,5 @@ In scope is the code in these repositories: the integrations, the Lovelace cards
 Out of scope, and best reported to their own maintainers:
 
 - Home Assistant itself (see [Home Assistant's security page](https://www.home-assistant.io/security/))
-- HACS
+- the Home Assistant Marketplace (formerly HACS)
 - the third-party services these projects read data from

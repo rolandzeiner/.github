@@ -25,7 +25,7 @@ body:
     id: version
     attributes:
       label: Project version
-      description: Shown in HACS, or in Settings → Devices & services for integrations.
+      description: Shown in Settings → Marketplace (in HACS before Home Assistant 2026.11), or in Settings → Devices & services for integrations.
       placeholder: e.g. 1.4.1
     validations:
       required: true
